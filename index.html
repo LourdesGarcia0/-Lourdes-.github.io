@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi currículum vitae</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    body {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1100px;
+    border: 50px solid white;
+    padding: 100px;
+    margin: 50px;
+}
+    h1 {
+    color: rgb(107, 23, 20);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    h2{
+      color: rgb(240, 235, 234);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: rgb(107, 23, 20);
+      padding: 5px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    h3 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+button{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-color: rgb(102, 29, 15);
+  background-color: bisque;
+  text-transform: uppercase;
+}
+img{
+    border-radius: 2000px;
+   border: 20px;
+}
+
+  </style>
+
+</head>
+
+<body> 
+
+        <body bgcolor= "#EAF1B9">
+<body>
+
+  <header>
+    <center><h1><span style= "color: rgb(52, 47, 70); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >CURRICULUM VITAE</span> </h1></center>
+    <center> <img src="foto2.jpg" alt="foto"> </center>
+    <center> <h1> Rosa Harris</h1>  </center>
+    <center> <h3> 12-06-1993 | DNI 30.659.215</h3>  </center>
+    <center> <button onclick=' titulo("Arquitectura y Urbanismo")'>Titulo profesional</button> <button onclick=' direccion ("5950 Lakeview St")'>Direccion</button> <button onclick=' telefono ("3852654566566")'>Telefono</button> <button onclick=' correo ("Rosa@gmail.com")'>Correo Electronico</button> </center>
+    
+
+  <script>
+    function titulo(Arquitectura){
+      console.log("Titulo en"+ Arquitectura);
+      alert (Arquitectura)
+    }
+
+    function direccion(direccion){
+      console.log("domicilio en"+ direccion);
+      alert (direccion)
+    }
+  
+    function telefono(telefono){
+      console.log("numero"+ telefono);
+      alert (telefono)
+    }
+
+    function correo(correo){
+      console.log(correo);
+      alert (correo)
+    }
+  </script>
+
+
+  </header>
+  <section>
+    <h2>Perfil </h2>
+    <p>Soy una profesional con experiencia en Arquitectura, con mas de 10 proyectos realizados, enfocada en alcanzar objetivos y buenos resultados. Trabaje en proyectos y equipos tanto nacionales como internacionales.</p>
+  </section>
+  <section>
+    <h2>Educacion</h2>
+    <ul>
+      <li><strong>Arquitectura y construccion</strong>, Universidad de Detroit Misericordia, 2013</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Idiomas</h2>
+    <ul>
+        <li><strong>Ingles - nivel alto.</strong>
+          <li><strong>Frances - nivel medio.</strong>
+    </ul>
+  </section>
+  <section>
+    <h2>Experiencia Laboral</h2>
+    <article>
+      <h3>Arquitecto Tecnico</h3>
+      <p> 2019- 2023</p>
+      <ul>
+        <li>Elaboracion de estudios de mercado.</li>
+        <li>Gestion de proyectos.</li>
+        <li>Seguimiento de obras.</li>
+      </ul>
+    </article>
+    <article>
+      <h3>Interiorista</h3>
+      <p> 2015- 2019</p>
+      <ul>
+        <li>Diseño de mobiliario e iluminación.</li>
+        <li>Realizacion de presupuestos.</li>
+        <li>Comunicacion con clientes.</li>
+      </ul>
+    </article>
+  </section>
+  <section>
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Liderazgo. </li>
+      <li>Comunicación.</li>
+      <li>Trabajo bajo presion.</li>
+      <li>Asertividad.</li>
+      <li>Buena gestion.</li>
+    </ul>
+  </section>
+  <footer>
+    <p>Referencias disponibles a petición.</p>
+  </footer>
+</body>
+</html>
